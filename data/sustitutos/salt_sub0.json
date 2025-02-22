@@ -1,0 +1,183 @@
+{
+    "fdcId": 1818913,
+    "description": "SALT SUBSTITUTE",
+    "dataType": "Branded",
+    "gtinUpc": "04482238",
+    "publishedDate": "2021-06-17",
+    "brandOwner": "Cumberland Packing Corp.",
+    "brandName": "NU-SALT",
+    "ingredients": "POTASSIUM CHLORIDE",
+    "marketCountry": "United States",
+    "foodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+    "modifiedDate": "2018-12-07",
+    "dataSource": "LI",
+    "packageWeight": "3 oz",
+    "servingSizeUnit": "g",
+    "servingSize": 1.0,
+    "householdServingFullText": "1/6 tsp",
+    "tradeChannels": [
+        "NO_TRADE_CHANNEL"
+    ],
+    "allHighlightFields": "",
+    "score": 1564.5674,
+    "microbes": [],
+    "foodNutrients": [
+        {
+            "nutrientId": 1003,
+            "nutrientName": "Protein",
+            "nutrientNumber": "203",
+            "unitName": "G",
+            "derivationCode": "LCCS",
+            "derivationDescription": "Calculated from value per serving size measure",
+            "derivationId": 70,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 600,
+            "indentLevel": 1,
+            "foodNutrientId": 21258529
+        },
+        {
+            "nutrientId": 1004,
+            "nutrientName": "Total lipid (fat)",
+            "nutrientNumber": "204",
+            "unitName": "G",
+            "derivationCode": "LCCD",
+            "derivationDescription": "Calculated from a daily value percentage per serving size measure",
+            "derivationId": 75,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 800,
+            "indentLevel": 1,
+            "foodNutrientId": 21258530,
+            "percentDailyValue": 0
+        },
+        {
+            "nutrientId": 1005,
+            "nutrientName": "Carbohydrate, by difference",
+            "nutrientNumber": "205",
+            "unitName": "G",
+            "derivationCode": "LCCD",
+            "derivationDescription": "Calculated from a daily value percentage per serving size measure",
+            "derivationId": 75,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 1110,
+            "indentLevel": 2,
+            "foodNutrientId": 21258531,
+            "percentDailyValue": 0
+        },
+        {
+            "nutrientId": 1008,
+            "nutrientName": "Energy",
+            "nutrientNumber": "208",
+            "unitName": "KCAL",
+            "derivationCode": "LCCS",
+            "derivationDescription": "Calculated from value per serving size measure",
+            "derivationId": 70,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 300,
+            "indentLevel": 1,
+            "foodNutrientId": 21258532
+        },
+        {
+            "nutrientId": 1092,
+            "nutrientName": "Potassium, K",
+            "nutrientNumber": "306",
+            "unitName": "MG",
+            "derivationCode": "LCCS",
+            "derivationDescription": "Calculated from value per serving size measure",
+            "derivationId": 70,
+            "value": 53000.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 5700,
+            "indentLevel": 1,
+            "foodNutrientId": 21258533,
+            "percentDailyValue": 15
+        },
+        {
+            "nutrientId": 1093,
+            "nutrientName": "Sodium, Na",
+            "nutrientNumber": "307",
+            "unitName": "MG",
+            "derivationCode": "LCCD",
+            "derivationDescription": "Calculated from a daily value percentage per serving size measure",
+            "derivationId": 75,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 5800,
+            "indentLevel": 1,
+            "foodNutrientId": 21258534,
+            "percentDailyValue": 0
+        },
+        {
+            "nutrientId": 1257,
+            "nutrientName": "Fatty acids, total trans",
+            "nutrientNumber": "605",
+            "unitName": "G",
+            "derivationCode": "LCCS",
+            "derivationDescription": "Calculated from value per serving size measure",
+            "derivationId": 70,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 15400,
+            "indentLevel": 1,
+            "foodNutrientId": 21258535
+        },
+        {
+            "nutrientId": 1258,
+            "nutrientName": "Fatty acids, total saturated",
+            "nutrientNumber": "606",
+            "unitName": "G",
+            "derivationCode": "LCCD",
+            "derivationDescription": "Calculated from a daily value percentage per serving size measure",
+            "derivationId": 75,
+            "value": 0.0,
+            "foodNutrientSourceId": 9,
+            "foodNutrientSourceCode": "12",
+            "foodNutrientSourceDescription": "Manufacturer's analytical; partial documentation",
+            "rank": 9700,
+            "indentLevel": 1,
+            "foodNutrientId": 21258536,
+            "percentDailyValue": 0
+        }
+    ],
+    "finalFoodInputFoods": [],
+    "foodMeasures": [],
+    "foodAttributes": [
+        {
+            "value": "10",
+            "name": "Added Brand/Sub Brand Information",
+            "id": 1922862
+        }
+    ],
+    "foodAttributeTypes": [
+        {
+            "name": "Update Log",
+            "description": "Changes that were made to this food",
+            "id": 998,
+            "foodAttributes": [
+                {
+                    "value": "10",
+                    "name": "Added Brand/Sub Brand Information",
+                    "id": 1922862
+                }
+            ]
+        }
+    ],
+    "foodVersionIds": []
+}
