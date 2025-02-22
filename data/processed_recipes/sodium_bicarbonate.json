@@ -1,0 +1,405 @@
+{
+  "name": "Catsup, low sodium",
+  "foodNutrients": [
+    {
+      "nutrientName": "Folic acid",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "SFA 4:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "SFA 6:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "SFA 10:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "PUFA 20:4",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "PUFA 18:4",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "MUFA 20:1",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "MUFA 22:1",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin E (alpha-tocopherol)",
+      "value": 1.46
+    },
+    {
+      "nutrientName": "Tocopherol, beta",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Tocopherol, gamma",
+      "value": 0.13
+    },
+    {
+      "nutrientName": "SFA 8:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "SFA 12:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "SFA 14:0",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "PUFA 22:6 n-3 (DHA)",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "PUFA 20:5 n-3 (EPA)",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "PUFA 22:5 n-3 (DPA)",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Tocopherol, delta",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin K (Dihydrophylloquinone)",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Alcohol, ethyl",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin D (D2 + D3), International Units",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Retinol",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Fatty acids, total trans",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Choline, total",
+      "value": 12.5
+    },
+    {
+      "nutrientName": "Betaine",
+      "value": 0.2
+    },
+    {
+      "nutrientName": "Sucrose",
+      "value": 2.3
+    },
+    {
+      "nutrientName": "MUFA 16:1",
+      "value": 0.001
+    },
+    {
+      "nutrientName": "Galactose",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin B-12",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Cholesterol",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Sodium, Na",
+      "value": 20.0
+    },
+    {
+      "nutrientName": "Isoleucine",
+      "value": 0.014
+    },
+    {
+      "nutrientName": "Leucine",
+      "value": 0.021
+    },
+    {
+      "nutrientName": "Lysine",
+      "value": 0.023
+    },
+    {
+      "nutrientName": "Cystine",
+      "value": 0.005
+    },
+    {
+      "nutrientName": "Folate, DFE",
+      "value": 9.0
+    },
+    {
+      "nutrientName": "Glucose",
+      "value": 10.2
+    },
+    {
+      "nutrientName": "Maltose",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Water",
+      "value": 68.5
+    },
+    {
+      "nutrientName": "Total Sugars",
+      "value": 21.3
+    },
+    {
+      "nutrientName": "Calcium, Ca",
+      "value": 15.0
+    },
+    {
+      "nutrientName": "Potassium, K",
+      "value": 281
+    },
+    {
+      "nutrientName": "Zinc, Zn",
+      "value": 0.17
+    },
+    {
+      "nutrientName": "Selenium, Se",
+      "value": 0.7
+    },
+    {
+      "nutrientName": "Lutein + zeaxanthin",
+      "value": 161
+    },
+    {
+      "nutrientName": "Total lipid (fat)",
+      "value": 0.1
+    },
+    {
+      "nutrientName": "Carbohydrate, by difference",
+      "value": 27.4
+    },
+    {
+      "nutrientName": "Energy",
+      "value": 423
+    },
+    {
+      "nutrientName": "Niacin",
+      "value": 1.43
+    },
+    {
+      "nutrientName": "Pantothenic acid",
+      "value": 0.047
+    },
+    {
+      "nutrientName": "Vitamin B-6",
+      "value": 0.158
+    },
+    {
+      "nutrientName": "Fatty acids, total monounsaturated",
+      "value": 0.015
+    },
+    {
+      "nutrientName": "Fatty acids, total polyunsaturated",
+      "value": 0.041
+    },
+    {
+      "nutrientName": "Valine",
+      "value": 0.014
+    },
+    {
+      "nutrientName": "Arginine",
+      "value": 0.016
+    },
+    {
+      "nutrientName": "Histidine",
+      "value": 0.013
+    },
+    {
+      "nutrientName": "Aspartic acid",
+      "value": 0.133
+    },
+    {
+      "nutrientName": "Serine",
+      "value": 0.021
+    },
+    {
+      "nutrientName": "SFA 16:0",
+      "value": 0.01
+    },
+    {
+      "nutrientName": "SFA 18:0",
+      "value": 0.004
+    },
+    {
+      "nutrientName": "MUFA 18:1",
+      "value": 0.015
+    },
+    {
+      "nutrientName": "PUFA 18:2",
+      "value": 0.039
+    },
+    {
+      "nutrientName": "PUFA 18:3",
+      "value": 0.001
+    },
+    {
+      "nutrientName": "Copper, Cu",
+      "value": 0.085
+    },
+    {
+      "nutrientName": "Manganese, Mn",
+      "value": 0.084
+    },
+    {
+      "nutrientName": "Vitamin A, IU",
+      "value": 527
+    },
+    {
+      "nutrientName": "Vitamin A, RAE",
+      "value": 26.0
+    },
+    {
+      "nutrientName": "Carotene, beta",
+      "value": 316
+    },
+    {
+      "nutrientName": "Carotene, alpha",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Fiber, total dietary",
+      "value": 0.3
+    },
+    {
+      "nutrientName": "Iron, Fe",
+      "value": 0.35
+    },
+    {
+      "nutrientName": "Magnesium, Mg",
+      "value": 13.0
+    },
+    {
+      "nutrientName": "Phosphorus, P",
+      "value": 26.0
+    },
+    {
+      "nutrientName": "Protein",
+      "value": 1.04
+    },
+    {
+      "nutrientName": "Ash",
+      "value": 2.94
+    },
+    {
+      "nutrientName": "Fructose",
+      "value": 8.72
+    },
+    {
+      "nutrientName": "Cryptoxanthin, beta",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Lycopene",
+      "value": 12100.0
+    },
+    {
+      "nutrientName": "Vitamin C, total ascorbic acid",
+      "value": 4.1
+    },
+    {
+      "nutrientName": "Thiamin",
+      "value": 0.011
+    },
+    {
+      "nutrientName": "Riboflavin",
+      "value": 0.166
+    },
+    {
+      "nutrientName": "Folate, total",
+      "value": 9.0
+    },
+    {
+      "nutrientName": "Vitamin K (phylloquinone)",
+      "value": 3.0
+    },
+    {
+      "nutrientName": "Folate, food",
+      "value": 9.0
+    },
+    {
+      "nutrientName": "Tryptophan",
+      "value": 0.005
+    },
+    {
+      "nutrientName": "Threonine",
+      "value": 0.019
+    },
+    {
+      "nutrientName": "Methionine",
+      "value": 0.005
+    },
+    {
+      "nutrientName": "Phenylalanine",
+      "value": 0.021
+    },
+    {
+      "nutrientName": "Tyrosine",
+      "value": 0.009
+    },
+    {
+      "nutrientName": "Alanine",
+      "value": 0.033
+    },
+    {
+      "nutrientName": "Glutamic acid",
+      "value": 0.349
+    },
+    {
+      "nutrientName": "Glycine",
+      "value": 0.016
+    },
+    {
+      "nutrientName": "Proline",
+      "value": 0.012
+    },
+    {
+      "nutrientName": "Fatty acids, total saturated",
+      "value": 0.014
+    },
+    {
+      "nutrientName": "Vitamin E, added",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin B-12, added",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Caffeine",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Theobromine",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Lactose",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin D (D2 + D3)",
+      "value": 0.0
+    }
+  ]
+}

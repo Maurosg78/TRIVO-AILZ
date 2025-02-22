@@ -1,0 +1,65 @@
+{
+  "name": "CHICKPEA FLOUR",
+  "foodNutrients": [
+    {
+      "nutrientName": "Protein",
+      "value": 16.7
+    },
+    {
+      "nutrientName": "Total lipid (fat)",
+      "value": 5.0
+    },
+    {
+      "nutrientName": "Carbohydrate, by difference",
+      "value": 70.0
+    },
+    {
+      "nutrientName": "Energy",
+      "value": 400
+    },
+    {
+      "nutrientName": "Total Sugars",
+      "value": 3.33
+    },
+    {
+      "nutrientName": "Fiber, total dietary",
+      "value": 16.7
+    },
+    {
+      "nutrientName": "Calcium, Ca",
+      "value": 107
+    },
+    {
+      "nutrientName": "Iron, Fe",
+      "value": 6.67
+    },
+    {
+      "nutrientName": "Potassium, K",
+      "value": 1220.0
+    },
+    {
+      "nutrientName": "Sodium, Na",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Vitamin D (D2 + D3)",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Sugars, added",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Cholesterol",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Fatty acids, total trans",
+      "value": 0.0
+    },
+    {
+      "nutrientName": "Fatty acids, total saturated",
+      "value": 0.0
+    }
+  ]
+}

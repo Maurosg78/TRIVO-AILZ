@@ -1,0 +1,24 @@
+{
+    "chickpea": {
+        "category": "legume",
+        "nutrients": {
+            "protein": 10,
+            "carbs": 20
+        },
+        "substitutes": [
+            "lentil",
+            "peas"
+        ]
+    },
+    "cauliflower": {
+        "category": "vegetable",
+        "nutrients": {
+            "fiber": 5,
+            "carbs": 10
+        },
+        "substitutes": [
+            "broccoli",
+            "kale"
+        ]
+    }
+}

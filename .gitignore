@@ -1,0 +1,45 @@
+
+# Ignorar entornos virtuales de Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de dependencias y caché
+*.log
+*.sqlite
+*.db
+*.env
+.env.local
+.env.*.local
+
+# Modelos y archivos de entrenamiento de IA
+*.h5
+*.keras
+*.pb
+*.tflite
+*.ckpt
+*.npy
+*.npz
+
+# Datos y JSONs temporales
+data/ingredients_data/
+data/sustitutos/
+data/*.json
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de Flask
+instance/
+config/*.json
+config/*.yml
+config/*.yaml
+
+# Archivos de MacOS
+.DS_Store
+Thumbs.db
+

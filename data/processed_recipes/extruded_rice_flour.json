@@ -1,0 +1,93 @@
+{
+  "name": "Flour, rice, brown",
+  "foodNutrients": [
+    {
+      "nutrientName": "Energy",
+      "value": 365
+    },
+    {
+      "nutrientName": "Iron, Fe",
+      "value": 1.5
+    },
+    {
+      "nutrientName": "Magnesium, Mg",
+      "value": 124
+    },
+    {
+      "nutrientName": "Phosphorus, P",
+      "value": 319
+    },
+    {
+      "nutrientName": "Sodium, Na",
+      "value": 1.0
+    },
+    {
+      "nutrientName": "Copper, Cu",
+      "value": 0.286
+    },
+    {
+      "nutrientName": "Manganese, Mn",
+      "value": 2.84
+    },
+    {
+      "nutrientName": "Protein",
+      "value": 7.19
+    },
+    {
+      "nutrientName": "Ash",
+      "value": 1.4
+    },
+    {
+      "nutrientName": "Thiamin",
+      "value": 0.322
+    },
+    {
+      "nutrientName": "Riboflavin",
+      "value": 0.008
+    },
+    {
+      "nutrientName": "Total lipid (fat)",
+      "value": 3.85
+    },
+    {
+      "nutrientName": "Carbohydrate, by difference",
+      "value": 75.5
+    },
+    {
+      "nutrientName": "Water",
+      "value": 12.1
+    },
+    {
+      "nutrientName": "Calcium, Ca",
+      "value": 10.0
+    },
+    {
+      "nutrientName": "Potassium, K",
+      "value": 265
+    },
+    {
+      "nutrientName": "Zinc, Zn",
+      "value": 1.91
+    },
+    {
+      "nutrientName": "Niacin",
+      "value": 5.99
+    },
+    {
+      "nutrientName": "Vitamin B-6",
+      "value": 0.132
+    },
+    {
+      "nutrientName": "Nitrogen",
+      "value": 1.15
+    },
+    {
+      "nutrientName": "Molybdenum, Mo",
+      "value": 56.2
+    },
+    {
+      "nutrientName": "Selenium, Se",
+      "value": 9.68
+    }
+  ]
+}
