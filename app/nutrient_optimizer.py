@@ -1,85 +1,48 @@
-# nutrient_optimizer.py
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.layers import Input, Dense, Embedding, Flatten, Concatenate
+import numpy as np
+import json
+import os
 
-import requests
+# Cargar datos normalizados
+DATA_DIR = "data/normalized_recipes/"
+recipe_files = [f for f in os.listdir(DATA_DIR) if f.endswith(".json")]
 
-def get_nutrient_data(ingredient, config):
-    """
-    Obtiene los datos nutricionales de un ingrediente usando la API de USDA.
-    """
-    base_url = config.get('base_url', 'https://api.nal.usda.gov/fdc/v1')
-    api_key = config.get('api_key')
-    search_url = f"{base_url}/foods/search"
-    params = {
-        "api_key": api_key,
-        "query": ingredient,
-        "pageSize": 1
-    }
-    response = requests.get(search_url, params=params)
-    
-    if response.status_code == 200:
-        data = response.json()
-        if data.get('foods'):
-            food = data['foods'][0]
-            nutrients = {}
-            for nutrient in food.get('foodNutrients', []):
-                nutrient_name = nutrient.get('nutrientName')
-                nutrient_value = nutrient.get('value')
-                if nutrient_name and nutrient_value is not None:
-                    nutrients[nutrient_name] = nutrient_value
-            return nutrients
-        else:
-            return {"error": "No se encontraron resultados para este ingrediente."}
-    else:
-        return {"error": f"Error en la API: {response.status_code}"}
+def load_data():
+    data = []
+    for file in recipe_files:
+        with open(os.path.join(DATA_DIR, file), "r", encoding="utf-8") as f:
+            recipe = json.load(f)
+            ingredients = recipe.get("ingredients", [])
+            for ing in ingredients:
+                data.append([
+                    ing["amount"], # Cantidad en gramos o ml
+                ])
+    return np.array(data, dtype=np.float32)
 
-def optimize_specific_nutrient(ingredients, target_nutrient, target_value, config):
-    """
-    Optimiza una receta para mejorar un nutriente específico.
-    
-    Args:
-        ingredients (dict): Ingredientes de la receta.
-        target_nutrient (str): Nutriente objetivo (ej. "protein").
-        target_value (float): Valor objetivo del nutriente.
-        config (dict): Configuración de la API.
-    
-    Returns:
-        dict: Datos nutricionales de los ingredientes optimizados.
-    """
-    nutrient_data = {}
-    for ingredient in ingredients:
-        nutrient_data[ingredient] = get_nutrient_data(ingredient, config)
-    
-    # Filtrar los nutrientes que necesitan optimización
-    for ingredient, data in nutrient_data.items():
-        if target_nutrient in data:
-            current_value = data[target_nutrient]
-            if current_value < target_value:
-                # Proponer un reemplazo si el valor actual es menor que el objetivo
-                replacement = suggest_replacement(ingredient, target_nutrient, target_value, config)
-                print(f"Reemplazar {ingredient} con {replacement} para mejorar {target_nutrient}.")
-    
-    return nutrient_data
+# Cargar datos
+X = load_data()
 
-def suggest_replacement(ingredient, target_nutrient, target_value, config):
-    """
-    Sugiere un reemplazo basado en el nutriente objetivo.
-    
-    Args:
-        ingredient (str): Ingrediente a reemplazar.
-        target_nutrient (str): Nutriente objetivo (ej. "protein").
-        target_value (float): Valor objetivo del nutriente.
-        config (dict): Configuración de la API.
-    
-    Returns:
-        str: Nombre del ingrediente de reemplazo.
-    """
-    if target_nutrient == "protein":
-        potential_replacements = ["lentejas", "proteína de guisante", "tofu"]
-        best_replacement = max(
-            potential_replacements,
-            key=lambda x: get_nutrient_data(x, config).get('protein', 0)
-        )
-        return best_replacement
-    else:
-        # Otros nutrientes como fibra, vitaminas, etc.
-        return ingredient  # No se propone un reemplazo si no se encuentra algo mejor
+# Definir arquitectura del modelo
+input_layer = Input(shape=(1,))  # Entrada: cantidad del ingrediente
+hidden_layer = Dense(32, activation="relu")(input_layer)
+hidden_layer = Dense(64, activation="relu")(hidden_layer)
+hidden_layer = Dense(32, activation="relu")(hidden_layer)
+output_layer = Dense(1, activation="linear")(hidden_layer)  # Salida: Ajuste de cantidad
+
+# Crear modelo
+model = keras.Model(inputs=input_layer, outputs=output_layer)
+
+# Compilar modelo
+model.compile(optimizer="adam", loss="mean_squared_error")
+
+# Resumen del modelo
+model.summary()
+
+# Guardar modelo en "app/models/"
+MODEL_DIR = "app/models/"
+os.makedirs(MODEL_DIR, exist_ok=True)
+model.save(os.path.join(MODEL_DIR, "nutrient_optimizer.h5"))
+
+print("✅ Modelo de optimización de nutrientes guardado en:", MODEL_DIR)

@@ -3,7 +3,7 @@ import requests
 import json
 
 # Ajusta tu API Key
-USDA_API_KEY = "TU_API_KEY_AQUI"
+USDA_API_KEY = "VoUZcYnQ04PKmQU6x34ZlvJaMmgb4ad7dQCwMK38"
 BASE_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
 HEADERS = {"Content-Type": "application/json"}
 

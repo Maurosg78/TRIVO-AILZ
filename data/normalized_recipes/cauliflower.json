@@ -1,0 +1,19 @@
+{
+  "name": "CAULIFLOWER",
+  "nutrients": {
+    "protein": 2.35,
+    "total_lipid_fat": 0.0,
+    "carbohydrate_by_difference": 4.71,
+    "energy": 24.0,
+    "total_sugars": 2.35,
+    "fiber_total_dietary": 2.4,
+    "calcium_ca": 24.0,
+    "iron_fe": 0.59,
+    "potassium_k": 188,
+    "sodium_na": 24.0,
+    "vitamin_d_d2_+_d3_international_units": 0.0,
+    "cholesterol": 0.0,
+    "fatty_acids_total_trans": 0.0,
+    "fatty_acids_total_saturated": 0.0
+  }
+}
